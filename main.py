@@ -25,7 +25,7 @@ class Game():
         self.__resources[19][9] = 0
         self.__resources[19][29] = 0
         self.GlobalRobotCount = 0
-        self.explosion = pygame.image.load("explode.png")
+        self.explosion = pygame.image.load("assets/explode.png")
         self.rate = 10
 
         self.__collectibles = []
@@ -206,7 +206,7 @@ class Game():
 
     def create_map(self):
         """Take info about __collectibles and create the map"""
-        im = cv2.imread("test_img3.jpg", cv2.IMREAD_GRAYSCALE)
+        im = cv2.imread("assets/test_img3.jpg", cv2.IMREAD_GRAYSCALE)
         im = cv2.resize(im, (40,40))
         im = np.array(im)
         im = im - np.full((40,40), 127)

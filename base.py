@@ -15,9 +15,9 @@ class Base():
         self.__Signal = ''
         
         if type == "red":
-            self.image = pygame.image.load("redbase.png")
+            self.image = pygame.image.load("assets/redbase.png")
         else:
-            self.image = pygame.image.load("bluebase.png")
+            self.image = pygame.image.load("assets/bluebase.png")
         self.rect = self.image.get_rect()
 
         self.rect.x = x

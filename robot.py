@@ -13,9 +13,9 @@ class Robot(Sprite):
         # Integer less than 2^31 -1
         self.__Initialsignal = signal
         if type == "red":
-            self.image = pygame.image.load("red_robot.png")
+            self.image = pygame.image.load("assets/red_robot.png")
         else:
-            self.image = pygame.image.load("blue_robot.png")
+            self.image = pygame.image.load("assets/blue_robot.png")
         self.rect = self.image.get_rect()
 
         self.rect.x = x
