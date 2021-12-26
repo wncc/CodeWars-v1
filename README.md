@@ -4,5 +4,5 @@ Find the documentation of functions, Game Details and other instructions for Ind
 
 Have a great Introduction to Programming!
 
-![image description](logo.jpeg)
+![image description](assets/logo.jpeg)
 
